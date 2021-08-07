@@ -17,14 +17,14 @@ Then you can run the script (if you want a 12pf SMD 0603 capacitor):
 
 That will draw you the nice table with all the options:
 ```
-┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ Name                 ┃ Description                      ┃ Manufacturer                  ┃ Quantity ┃ M/O ┃ Price ┃ DigiKey part number          ┃
-┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━╇━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ 0603N120J500CT       │ CAP CER 12PF 50V C0G/NP0 0603    │ Walsin Technology Corporation │ 92389    │ 1   │ 0.1   │ 1292-1480-1-ND               │
-│ 0603N120J500CT       │ CAP CER 12PF 50V C0G/NP0 0603    │ Walsin Technology Corporation │ 92389    │ 1   │ 0.1   │ 1292-1480-6-ND               │
-│ C0603C120K5HAC7867   │ CAP CER 0603 12PF 50V ULTRA STAB │ KEMET                         │ 13016    │ 1   │ 0.1   │ 399-C0603C120K5HAC7867CT-ND  │
-│ C0603C120K5HAC7867   │ CAP CER 0603 12PF 50V ULTRA STAB │ KEMET                         │ 13016    │ 1   │ 0.1   │ 399-C0603C120K5HAC7867DKR-ND │
-│ 06031A120JAT4A       │ CAP CER 12PF 100V C0G/NP0 0603   │ AVX Corporation               │ 73131    │ 1   │ 0.1   │ 478-10188-1-ND               │
++----------------------+----------------------------------+-------------------------------+----------+-----+-------+------------------------------+
+| Name                 | Description                      | Manufacturer                  | Quantity | M/O | Price | DigiKey part number          |
++----------------------+----------------------------------+-------------------------------+----------+-----+-------+------------------------------+
+| 0603N120J500CT       | CAP CER 12PF 50V C0G/NP0 0603    | Walsin Technology Corporation | 92389    | 1   | 0.1   | 1292-1480-1-ND               |
+| 0603N120J500CT       | CAP CER 12PF 50V C0G/NP0 0603    | Walsin Technology Corporation | 92389    | 1   | 0.1   | 1292-1480-6-ND               |
+| C0603C120K5HAC7867   | CAP CER 0603 12PF 50V ULTRA STAB | KEMET                         | 13016    | 1   | 0.1   | 399-C0603C120K5HAC7867CT-ND  |
+| C0603C120K5HAC7867   | CAP CER 0603 12PF 50V ULTRA STAB | KEMET                         | 13016    | 1   | 0.1   | 399-C0603C120K5HAC7867DKR-ND |
+| 06031A120JAT4A       | CAP CER 12PF 100V C0G/NP0 0603   | AVX Corporation               | 73131    | 1   | 0.1   | 478-10188-1-ND               |
 ```
 
 ### Installation
