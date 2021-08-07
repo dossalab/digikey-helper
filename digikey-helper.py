@@ -32,6 +32,7 @@ def search_parts(query, sane_min_order=True, sort_by_price=True, hide_broken=Tru
         part.quantity = product.quantity_available
         part.manufacturer = product.manufacturer.value
         part.stock = not product.non_stock
+        part.packaging = product.packaging.value
 
         if hide_broken:
             if part.price <= 0.0 or part.quantity <= 0 or not part.stock:
@@ -56,11 +57,12 @@ def present_parts(console, parts):
     table.add_column('Quantity')
     table.add_column('M/O')
     table.add_column('Price')
+    table.add_column('Packaging')
     table.add_column('DigiKey part number')
 
     for p in parts:
         table.add_row(p.name, p.desc, p.manufacturer, str(p.quantity),
-                str(p.min_order), str(p.price), p.digikey_part)
+                str(p.min_order), str(p.price), p.packaging, p.digikey_part)
 
     console.print(table)
 
