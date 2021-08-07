@@ -67,13 +67,17 @@ def present_parts(console, parts):
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Search DigiKey')
     parser.add_argument('request', help='search request')
+    parser.add_argument('--dont-hide-broken', action='store_true',
+            help='don\'t hide non available parts')
+
     return parser.parse_args()
 
 def main():
     args = parse_arguments()
     console = rich.console.Console()
 
-    parts = search_parts(args.request)
+    hide_broken = not args.dont_hide_broken
+    parts = search_parts(args.request, hide_broken=hide_broken)
     present_parts(console, parts)
 
 if __name__ == '__main__':
