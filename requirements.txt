@@ -1,0 +1,2 @@
+digikey_api==0.5.0
+rich==10.7.0
